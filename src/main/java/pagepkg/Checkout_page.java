@@ -1,5 +1,7 @@
 package pagepkg;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,7 +18,7 @@ public class Checkout_page {
     @FindBy(id = "checkout")
     WebElement checkoutBtn;
 
-    // Checkout Form Elements
+    
     @FindBy(id = "first-name")
     WebElement firstname;
 
@@ -47,6 +49,10 @@ public class Checkout_page {
    
     public void clickCart() {
         carticon.click();
+    }
+    public List<WebElement> pdtdetails()
+    {
+   	 return pdtdetails();
     }
     public void clickcheckOut()
     {

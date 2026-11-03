@@ -51,8 +51,8 @@ public class Product_test extends Base_class{
         	  List<WebElement> dtl=pdt.pdtdetails();
               Thread.sleep(5000);
               System.out.println("Total Number of Products: " +dtl.size());
-                  for(WebElement product : dtl) {
-                       System.out.println(product.getText());
+                  for(WebElement cartbtn: dtl) {
+                       System.out.println(cartbtn.getText());
                 
                   }
                   
@@ -69,20 +69,7 @@ public class Product_test extends Base_class{
               test.pass("Navigated to Cart page successfully");
               
               
-               
-            
-            
-              
-             
-              
-              
-              
-          }
+           }
           
           
-          
-          
-         
-                   
-           
-}
+    }

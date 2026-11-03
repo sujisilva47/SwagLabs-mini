@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testpkg.Login_test">
+      <class name="testpkg.Checkout_test$checkout_test">
         <methods>
           <include name="browser_launch"/>
-          <include name="loginTest" invocation-numbers="0 1 2"/>
           <include name="teardown"/>
+          <include name="verifyCheckoutProcess"/>
         </methods>
-      </class> <!-- testpkg.Login_test -->
+      </class> <!-- testpkg.Checkout_test$checkout_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

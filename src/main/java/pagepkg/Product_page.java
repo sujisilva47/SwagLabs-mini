@@ -46,7 +46,7 @@ public class Product_page {
             	 
             	 for(WebElement items:cartButton)
             	 {   
-            		 System.out.println(items);
+//            		 System.out.println(items);
 //            		 Thread.sleep(5000);
             		 items.click();
 //            		 Thread.sleep(5000);
@@ -75,10 +75,5 @@ public class Product_page {
              {
             	 cartIcon.click();
              }
-             
-
-
-			 
-             
              
 }

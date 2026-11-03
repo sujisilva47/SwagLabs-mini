@@ -1,5 +1,4 @@
 package testpkg;
-
 import org.testng.annotations.Test;
 
 import basepkg.Base_class;
@@ -30,13 +29,15 @@ public class Checkout_test {
 	        ckout.clickCart();
 	        Thread.sleep(2000);
 	        
-	       
+//	        ckout.pdtdetails();
+//	        Thread.sleep(2000);
+	        
 	        ckout.clickcheckOut();
 	        Thread.sleep(2000);
 	        
 	       
 	        ckout.setDetails("suji", "jobin", "695501");
-	        Thread.sleep(2000);
+	        Thread.sleep(3000);
 	        
 	       
 	        ckout.clickFinish();

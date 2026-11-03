@@ -23,7 +23,7 @@ public class Login_test extends Base_class{
         	  return ExcelUtil.getTestData(path,"sheet1");
           }
           
-          @Test(dataProvider = "loginData",priority = 1)
+          @Test(dataProvider = "loginData")
           public void loginTest(String user,String password) throws IOException, InterruptedException 
           {
         	  driver.get("https://www.saucedemo.com/");
@@ -64,7 +64,7 @@ public class Login_test extends Base_class{
           }
          
           
-          @Test(priority = 2)
+          @Test
           public void logoverification() throws IOException
           {
         	  driver.get("https://www.saucedemo.com/");
@@ -96,7 +96,7 @@ public class Login_test extends Base_class{
         	  
           }
           
-          @Test(priority = 3)
+          @Test
           public void buttontextvalidation() throws IOException
           {
         	  driver.get("https://www.saucedemo.com/");
@@ -163,7 +163,7 @@ public class Login_test extends Base_class{
         	  
           }
           
-          @Test(priority = 5)
+          @Test
           public void Titlefetch() throws IOException
           {
               driver.get("https://www.saucedemo.com/");
